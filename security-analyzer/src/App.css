@@ -1,0 +1,64 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.navbar1 {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.code-editor {
+  text-align: left !important;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.code-editor,
+.result-section,
+.explanation-section {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.code-editor {
+  text-align: left;
+}
+
+.submit-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.result-section {
+  background-color: #7cc576;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.result-text {}
+
+.explanation-section {
+  background-color: #a2d9f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.explanation-text {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
